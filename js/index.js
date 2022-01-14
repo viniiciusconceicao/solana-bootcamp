@@ -1,21 +1,4 @@
-/*
-Wrote new keypair to echo_account
-=======================================================================
-pubkey: EayGk6g2NuiEMa4FDHhbWESzn8Vbg5tZmvG6yr7TyLoU
-=======================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-tenant assume retire orient potato blade lock suit east blue eye design
-=======================================================================
-*/
-/*
-Wrote new keypair to echo_account-local
-====================================================================================
-pubkey: CtrxRYUG2S59nWDMoGGrP4WYnvk9QqsHp17YJR15UaXs
-====================================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-manual spirit coconut invest comic seven purchase empty transfer scrub science forum
-====================================================================================
-*/
+
 const { readFile } = require("mz/fs");
 const {
   Connection,
@@ -87,26 +70,6 @@ async function cmd_vending_machine_echo(programId, connection, args) {
 
     const tokenAcctId = new PublicKey("HEvK4rje9b1KWajpBNVmH6paXHWcHyfk6PEzHjEoU4Es");
 	const ownerAcc = new PublicKey("13dj7P7LSSqoWvtVqV8akhcdfdhMVbcju6U3hgQKqBuZ");
-    
-    /*
-MacBook:js pdryer$ spl-token create-token
-Creating token Dp8Mpqu6Szo17f66WW23jzFJZS5cEWKEW61FgKMhL1b2
-
-Signature: 4tu4E8FWMXSAzjexk3XWafYmdeMT1FscsAi8SAniJHon3aLB6xjBc6vcBurgvTw9WUaercA1jerXvfaLVcab5fxP
-
-
-MacBook:js pdryer$ spl-token create-account Dp8Mpqu6Szo17f66WW23jzFJZS5cEWKEW61FgKMhL1b2
-Creating account DTawhutyrQgEd48cKxGXHv8PrfczEPDuY6i6VNXoe7AH
-
-Signature: EuLtfR1vy4wnvana19XEpUNVdwAiaqfms9YEiMnE1ZGiMnCW7d2yQ2a5viTTfB3JDDQ6GHqEhHvoKrnm1q7bouL
-
-MacBook:js pdryer$ spl-token mint Dp8Mpqu6Szo17f66WW23jzFJZS5cEWKEW61FgKMhL1b2 100
-Minting 100 tokens
-  Token: Dp8Mpqu6Szo17f66WW23jzFJZS5cEWKEW61FgKMhL1b2
-  Recipient: DTawhutyrQgEd48cKxGXHv8PrfczEPDuY6i6VNXoe7AH
-
-Signature: 9bAfA5Yz1vtpTThm6w8xuRhBoPMijwqbVRoHiVY5whXBWMqFNgBWd749RNqqaRpi4NEYvszypEcXgNSJgSsqeQe
-    */
 
 //Creating token HNe1dgWXucRqEFAJK5pkN5pxY3WtLjmSW6MwAaekrgYD
 //Signature: RbSDTt1qnEHJT2MYMkqgRr3PnLFy1nMTK8hag8GhT5GB73ifZk8PeQzUvs7mtZaTxcbjgCZC32JhjRsrEV7MFZQ
