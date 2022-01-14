@@ -1,21 +1,4 @@
-/*
-Wrote new keypair to echo_account
-=======================================================================
-pubkey: EayGk6g2NuiEMa4FDHhbWESzn8Vbg5tZmvG6yr7TyLoU
-=======================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-tenant assume retire orient potato blade lock suit east blue eye design
-=======================================================================
-*/
-/*
-Wrote new keypair to echo_account-local
-====================================================================================
-pubkey: CtrxRYUG2S59nWDMoGGrP4WYnvk9QqsHp17YJR15UaXs
-====================================================================================
-Save this seed phrase and your BIP39 passphrase to recover your new keypair:
-manual spirit coconut invest comic seven purchase empty transfer scrub science forum
-====================================================================================
-*/
+
 const { readFile } = require("mz/fs");
 const {
   Connection,
